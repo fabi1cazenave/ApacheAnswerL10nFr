@@ -80,7 +80,7 @@ backend:
         other: Niveau 1 (moins de réputation requise pour une équipe privée, un groupe)
     level_2:
       description:
-        other: Niveau 2 (faible réputation requise pour la communauté des startups)
+        other: Niveau 2 (faible réputation requise pour une communauté naissante)
     level_3:
       description:
         other: Niveau 3 (haute réputation requise pour une communauté mature)
@@ -96,17 +96,17 @@ backend:
     rank_report_add_label:
       other: Signaler
     rank_comment_vote_up_label:
-      other: Voter favorablement le commentaire
+      other: Approuver un commentaire
     rank_link_url_limit_label:
       other: Poster plus de 2 liens à la fois
     rank_question_vote_up_label:
-      other: Voter favorablement la question
+      other: Approuver une question
     rank_answer_vote_up_label:
-      other: Voter favorablement la réponse
+      other: Approuver une réponse
     rank_question_vote_down_label:
-      other: Voter contre la question
+      other: Désapprouver une question
     rank_answer_vote_down_label:
-      other: Voter contre la réponse
+      other: Désapprouver une réponse
     rank_invite_someone_to_answer_label:
       other: Inviter quelqu'un à répondre
     rank_tag_add_label:
@@ -130,7 +130,7 @@ backend:
     rank_tag_edit_without_review_label:
       other: Modifier la description du tag sans révision
     rank_tag_synonym_label:
-      other: Gérer les tags synonyme
+      other: Gérer les tags synonymes
   email:
     other: Email
   e_mail:
@@ -541,42 +541,42 @@ backend:
         name:
           other: Autobiographe
         desc:
-          other: Informations sur le <a href="{{ .ProfileURL }}" target="_blank">profil</a>.
+          other: A renseigné son <a href="{{ .ProfileURL }}" target="_blank">profil</a>.
       certified:
         name:
           other: Certifié
         desc:
-          other: Nous avons terminé notre nouveau tutoriel d'utilisation.
+          other: A terminé le tutoriel des nouveaux utilisateurs.
       editor:
         name:
           other: Éditeur
         desc:
-          other: Première modification du post.
+          other: A modifié un post.
       first_flag:
         name:
           other: Premier drapeau
         desc:
-          other: Premier a signalé un post.
+          other: A signalé un post.
       first_upvote:
         name:
           other: Premier vote positif
         desc:
-          other: Premier a signalé un post.
+          other: A approuvé un post.
       first_link:
         name:
           other: Premier lien
         desc:
-          other: First added a link to another post.
+          other: A ajouté un lien vers un autre post.
       first_reaction:
         name:
           other: Première réaction
         desc:
-          other: Première réaction au post.
+          other: A réagi à un post.
       first_share:
         name:
           other: Premier partage
         desc:
-          other: Premier post partagé.
+          other: A partagé un post.
       scholar:
         name:
           other: Érudit
@@ -586,62 +586,62 @@ backend:
         name:
           other: Commentateur
         desc:
-          other: Laissez 5 commentaires.
+          other: A laissé 5 commentaires.
       new_user_of_the_month:
         name:
           other: Nouvel utilisateur du mois
         desc:
-          other: Contributions en suspens au cours de leur premier mois.
+          other: Contributions hors-norme dès le premier mois.
       read_guidelines:
         name:
-          other: Lire les lignes de conduite
+          other: Lire le code de conduite
         desc:
-          other: Lisez les [lignes directrices de la communauté].
+          other: A lu le [code de conduite de la communauté].
       reader:
         name:
           other: Lecteur
         desc:
-          other: Lisez toutes les réponses dans un sujet avec plus de 10 réponses.
+          other: A lu toutes les réponses dans un sujet avec plus de 10 réponses.
       welcome:
         name:
           other: Bienvenue
         desc:
-          other: A reçu un vote positif.
+          other: A reçu une approbation.
       nice_share:
         name:
           other: Bien partagé
         desc:
-          other: A partagé un poste avec 25 visiteurs uniques.
+          other: A partagé un post avec 25 visiteurs uniques.
       good_share:
         name:
           other: Bon partage
         desc:
-          other: A partagé un poste avec 300 visiteurs uniques.
+          other: A partagé un post avec 300 visiteurs uniques.
       great_share:
         name:
           other: Super Partage
         desc:
-          other: A partagé un poste avec 1000 visiteurs uniques.
+          other: A partagé un post avec 1000 visiteurs uniques.
       out_of_love:
         name:
           other: Amoureux
         desc:
-          other: A donné 50 likes dans une journée.
+          other: A donné 50 approbations dans une journée.
       higher_love:
         name:
           other: Amour plus grand
         desc:
-          other: A donné 50 likes dans une journée 5 fois.
+          other: A donné 50 approbations dans une journée 5 fois.
       crazy_in_love:
         name:
           other: Fou d'amour
         desc:
-          other: A recueilli 50 votes positifs par jour 20 fois.
+          other: A recueilli 50 approbations dans une journée 20 fois.
       promoter:
         name:
           other: Promoteur
         desc:
-          other: Inviter un utilisateur.
+          other: A invité un utilisateur.
       campaigner:
         name:
           other: Propagandiste
@@ -714,7 +714,7 @@ backend:
           other: 10 réponses sont acceptées.
       know_it_all:
         name:
-          other: Tout-savoir
+          other: Je-sais-tout
         desc:
           other: 50 réponses sont acceptées.
       solution_institution:
@@ -756,17 +756,17 @@ backend:
         name:
           other: Question Populaire
         desc:
-          other: Question avec 500 points de vue.
+          other: Question avec 500 vues.
       notable_question:
         name:
           other: Question notable
         desc:
-          other: Question avec 1,000 points de vue.
+          other: Question avec 1000 vues.
       famous_question:
         name:
           other: Question célèbre
         desc:
-          other: Question avec 5000 points de vue.
+          other: Question avec 5000 vues.
       popular_link:
         name:
           other: Lien populaire
@@ -785,7 +785,7 @@ backend:
     default_badge_groups:
       getting_started:
         name:
-          other: Initialisation complète
+          other: Premiers pas
       community:
         name:
           other: Communauté
@@ -799,7 +799,7 @@ ui:
     desc: >-
       <ul class="mb-0"><li><p class="mb-2">mentionner un post: <code>#post_id</code></p></li><li><p class="mb-2">Pour faire des liens</p><pre class="mb-2"><code>&lt;https://url.com&gt;<br/><br/>[Title](https://url.com)</code></pre></li><li><p class="mb-2">mettre des retour entre les paragraphes</p></li><li><p class="mb-2"><em>_italic_</em> or **<strong>gras</strong>**</p></li><li><p class="mb-2">indenter le code par 4 espaces</p></li><li><p class="mb-2">citation en plaçant <code>&gt;</code> au début de la ligne</p></li><li><p class="mb-2">guillemets inversés <code>`comme_ca_`</code></p></li><li><p class="mb-2">créer une banière de code avec les guillemets inversés <code>`</code></p><pre class="mb-0"><code>```<br/>code ici<br/>```</code></pre></li></ul>
   pagination:
-    prev: Préc
+    prev: Précédent
     next: Suivant
   page_title:
     question: Question
@@ -1048,7 +1048,7 @@ ui:
     long_date: D MMM
     long_date_with_year: "D MMMM YYYY"
     long_date_with_time: "D MMM YYYY [at] HH:mm"
-    now: maintenant
+    now: à l’instant
     x_seconds_ago: "il y a {{count}}s"
     x_minutes_ago: "il y a {{count}}m"
     x_hours_ago: "il y a {{count}}h"
@@ -1452,7 +1452,7 @@ ui:
     signup: S'inscrire
     logout: Se déconnecter
     verify: Vérifier
-    create: Create
+    create: Créer
     approve: Approuver
     reject: Rejeter
     skip: Ignorer
@@ -1493,7 +1493,7 @@ ui:
     display_below: Display below
     always_display: Always display
     or: or
-    back_sites: Back to sites
+    back_sites: Retour au site
   search:
     title: Résultats de la recherche
     keywords: Mots-clés
@@ -1752,8 +1752,8 @@ ui:
     privileges: Privilèges
     plugins: Extensions
     installed_plugins: Extensions installées
-    apperance: Appearance
-  website_welcome: Bienvenue sur {{site_name}}
+    apperance: Apparence
+  website_welcome: Bienvenue chez {{site_name}}
   user_center:
     login: Connexion
     qrcode_login_tip: Veuillez utiliser {{ agentName }} pour scanner le code QR et vous connecter.
@@ -1952,20 +1952,20 @@ ui:
       name:
         label: Nom du site
         msg: Le nom ne peut pas être vide.
-        text: "Le nom de ce site, tel qu'il est utilisé dans la balise titre."
+        text: "Le nom de ce site, tel qu'il apparait dans la balise titre."
       site_url:
         label: URL du site
         msg: L'URL ne peut pas être vide.
         validate: Indiquez une URL valide.
         text: L'adresse de ce site.
       short_desc:
-        label: Courte description du site
+        label: Description courte du site
         msg: La description courte ne peut pas être vide.
-        text: "La description courte, telle qu'elle est utilisée dans le tag titre de la page d'accueil."
+        text: "La description courte, telle qu'elle apparait dans le titre de la page d'accueil."
       desc:
         label: Description du site
         msg: La description du site ne peut pas être vide.
-        text: "Décrivez ce site en une phrase, telle qu'elle est utilisée dans la balise meta description."
+        text: "Décrivez ce site en une phrase, telle qu'elle apparait dans la balise meta description."
       contact_email:
         label: Email du contact
         msg: L'email de contact ne peut pas être vide.
@@ -1979,9 +1979,9 @@ ui:
       language:
         label: Langue de l'interface
         msg: La langue de l'interface ne peut pas être vide.
-        text: Langue de l'interface de l'utilisateur. Cela changera lorsque vous rafraîchissez la page.
+        text: Langue de l'interface de l'utilisateur. Cela changera lorsque vous rafraîchirez la page.
       time_zone:
-        label: Fuseau Horaire
+        label: Fuseau horaire
         msg: Le fuseau horaire ne peut pas être vide.
         text: Choisissez une ville dans le même fuseau horaire que vous.
     smtp:
@@ -2091,7 +2091,7 @@ ui:
       page_title: Référencement
       permalink:
         label: Lien permanent
-        text: Des structures d'URL personnalisées peuvent améliorer la facilité d'utilisation et la compatibilité de vos liens.
+        text: Des structures d'URL personnalisées peuvent faciliter l'utilisation et la compatibilité ascendante des liens.
       robots:
         label: robots.txt
         text: Ceci remplacera définitivement tous les paramètres liés au site.
@@ -2103,7 +2103,7 @@ ui:
       color_scheme:
         label: Jeu de couleurs
       navbar_style:
-        label: Navbar background style
+        label: Couleur de la barre de navigation
       primary_color:
         label: Couleur primaire
         text: Modifier les couleurs utilisées par vos thèmes
@@ -2160,7 +2160,7 @@ ui:
         label: Extensions
         text: Sélectionnez une extension existante.
       name: Nom
-      version: Versión
+      version: Version
       status: Statut
       action: Action
       deactivate: Désactiver
@@ -2172,14 +2172,14 @@ ui:
         label: Photo de profil par défaut
         text: Pour les utilisateurs sans avatar personnalisé.
       gravatar_base_url:
-        label: Gravatar Base URL
+        label: URL Gravatar de base
         text: URL de la base de l'API du fournisseur Gravatar. Ignorée lorsqu'elle est vide.
       profile_editable:
         title: Profil modifiable
       allow_update_display_name:
         label: Permettre aux utilisateurs de changer leur nom d'affichage
       allow_update_username:
-        label: Permettre aux clients de changer leurs noms d'utilisateur
+        label: Permettre aux utilisateurs de changer leur identifiant
       allow_update_avatar:
         label: Permettre aux utilisateurs de changer leur image de profil
       allow_update_bio:
