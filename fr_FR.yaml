@@ -252,7 +252,7 @@ backend:
       not_found:
         other: Étiquette non trouvée.
       recommend_tag_not_found:
-        other: L’étiquette ecommandée n'existe pas.
+        other: L’étiquette recommandée n'existe pas.
       recommend_tag_enter:
         other: Veuillez saisir au moins une étiquette.
       not_contain_synonym_tags:
@@ -450,7 +450,7 @@ backend:
       your_question_is_closed:
         other: Une réponse a été publiée pour votre question
       your_question_was_deleted:
-        other: Votre questiop a été supprimée
+        other: Votre question a été supprimée
       your_answer_was_deleted:
         other: Votre réponse a été supprimée
       your_comment_was_deleted:
