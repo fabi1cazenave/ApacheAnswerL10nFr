@@ -554,7 +554,7 @@ backend:
           other: A modifié un post.
       first_flag:
         name:
-          other: Premier drapeau
+          other: Premier signalement
         desc:
           other: A signalé un post.
       first_upvote:
@@ -726,47 +726,47 @@ backend:
         name:
           other: Belle réponse
         desc:
-          other: Réponse a obtenu un score de 10 ou plus.
+          other: Une réponse a obtenu un score de 10 ou plus.
       good_answer:
         name:
           other: Bonne répone
         desc:
-          other: Réponse a obtenu un score de 25 ou plus.
+          other: Une réponse a obtenu un score de 25 ou plus.
       great_answer:
         name:
-          other: Super Réponse
+          other: Super réponse
         desc:
-          other: Réponse a obtenu un score de 50 ou plus.
+          other: Une réponse a obtenu un score de 50 ou plus.
       nice_question:
         name:
-          other: Belle Question
+          other: Belle question
         desc:
-          other: Question a obtenu un score de 10 ou plus.
+          other: Une question a obtenu un score de 10 ou plus.
       good_question:
         name:
-          other: Bonne Question
+          other: Bonne question
         desc:
-          other: Question a obtenu un score de 25 ou plus.
+          other: Une question a obtenu un score de 25 ou plus.
       great_question:
         name:
-          other: Super Question
+          other: Super question
         desc:
-          other: Question a obtenu un score de 50 ou plus.
+          other: Une question a obtenu un score de 50 ou plus.
       popular_question:
         name:
           other: Question Populaire
         desc:
-          other: Question avec 500 vues.
+          other: Une question a obtenu 500 vues.
       notable_question:
         name:
           other: Question notable
         desc:
-          other: Question avec 1000 vues.
+          other: Une question a obtenu 1000 vues.
       famous_question:
         name:
           other: Question célèbre
         desc:
-          other: Question avec 5000 vues.
+          other: Une question a obtenu 5000 vues.
       popular_link:
         name:
           other: Lien populaire
@@ -779,7 +779,7 @@ backend:
           other: A posté un lien externe avec 300 clics.
       famous_link:
         name:
-          other: Célèbre lien
+          other: Lien célèbre
         desc:
           other: A posté un lien externe avec 100 clics.
     default_badge_groups:
