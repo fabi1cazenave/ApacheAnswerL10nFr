@@ -1833,7 +1833,7 @@ ui:
       action: Action
       review: Vérification
     user_role_modal:
-      title: Changer le rôle d'un utilisateur en...
+      title: Changer le rôle d'un utilisateur en…
       btn_cancel: Annuler
       btn_submit: Valider
     new_password_modal:
@@ -1852,10 +1852,10 @@ ui:
         fields:
           display_name:
             label: Nom affiché
-            msg_range: Display name must be 2-30 characters in length.
+            msg_range: Le nom affiché doit contenir entre 2 et 30 caractères.
           username:
             label: Nom d'utilisateur
-            msg_range: Username must be 2-30 characters in length.
+            msg_range: Le nom d’utilisateur doit contenir entre 2 et 30 caractères.
           email:
             label: E-mail
             msg_invalid: Adresse e-mail non valide.
@@ -2275,7 +2275,7 @@ ui:
     no_data: "Nous n'avons rien pu trouver."
   users:
     title: Utilisateurs
-    users_with_the_most_reputation: Utilisateurs ayant les scores de réputation les plus élevés cette semaine
+    users_with_the_most_reputation: Utilisateurs ayant les meilleurs scores de réputation cette semaine
     users_with_the_most_vote: Utilisateurs ayant le plus voté cette semaine
     staffs: Staff de la communauté
     reputation: points
