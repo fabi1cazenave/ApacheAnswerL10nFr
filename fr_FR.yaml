@@ -375,7 +375,7 @@ backend:
       name:
         other: semble bien
       desc:
-        other: Ce message est bon en tant que tel et n'est pas de mauvaise qualité.
+        other: Ce message est bien comme il est et n'est pas de mauvaise qualité.
     needs_edit:
       name:
         other: a besoin d'être modifié, et je l'ai fait
@@ -1431,7 +1431,7 @@ ui:
       content: Voulez-vous vraiment l'épingler globalement ? Ce message apparaîtra en haut de toutes les listes de messages.
       confirm_btn: Épingler
   delete:
-    title: Supprimer la publication
+    title: Supprimer le message
     question: >-
       Nous ne recommandons pas <strong>de supprimer des questions avec des réponses</strong> car cela prive les futurs lecteurs de cette connaissance.</p><p>Suppression répétée des questions répondues peut empêcher votre compte de poser. Voulez-vous vraiment supprimer ?
     answer_accepted: >-
@@ -1929,7 +1929,7 @@ ui:
     questions:
       page_title: Questions
       unlisted: Non listé
-      post: Publication
+      post: Messages
       votes: Votes
       answers: Réponses
       created: Créé
@@ -1941,7 +1941,7 @@ ui:
         placeholder: "Filtrer par titre, question:id"
     answers:
       page_title: Réponses
-      post: Publication
+      post: Messages
       votes: Votes
       created: Créé
       status: Statut
