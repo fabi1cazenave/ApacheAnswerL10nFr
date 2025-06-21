@@ -132,9 +132,9 @@ backend:
     rank_tag_synonym_label:
       other: Gérer les tags synonymes
   email:
-    other: Email
+    other: E-mail
   e_mail:
-    other: Email
+    other: E-mail
   password:
     other: Mot de passe
   pass:
@@ -144,7 +144,7 @@ backend:
   original_text:
     other: Ce post
   email_or_password_wrong_error:
-    other: L'email et le mot de passe ne correspondent pas.
+    other: L'e-mail et le mot de passe ne correspondent pas.
   error:
     common:
       invalid_url:
@@ -162,7 +162,7 @@ backend:
       cannot_modify_self_status:
         other: Vous ne pouvez pas modifier votre statut.
       email_or_password_wrong:
-        other: L'email et le mot de passe ne correspondent pas.
+        other: L'e-mail et le mot de passe ne correspondent pas.
     answer:
       not_found:
         other: Réponse introuvable.
@@ -189,7 +189,7 @@ backend:
       need_to_be_verified:
         other: L'adresse e-mail doit être vérifiée.
       verify_url_expired:
-        other: L'URL de vérification de l'email a expiré, veuillez renvoyer l'email.
+        other: L'URL de vérification de l'e-mail a expiré, veuillez renvoyer l'e-mail.
       illegal_email_domain_error:
         other: L'e-mail n'est pas autorisé à partir de ce domaine de messagerie. Veuillez en utiliser un autre.
     lang:
@@ -281,7 +281,7 @@ backend:
         other: Veuillez définir un mot de passe de connexion pour votre compte avant de supprimer ce login.
       email_or_password_wrong:
         other:
-          other: L'email et le mot de passe ne correspondent pas.
+          other: L'e-mail et le mot de passe ne correspondent pas.
       not_found:
         other: Utilisateur non trouvé.
       suspended:
@@ -507,7 +507,7 @@ backend:
         other: "Bienvenue sur {{.SiteName}}!<br><br>\n\nCliquez sur le lien suivant pour confirmer et activer votre nouveau compte :<br>\n<a href='{{.RegisterUrl}}' target='_blank'>{{.RegisterUrl}}</a><br><br>\n\nSi le lien ci-dessus n'est pas cliquable, essayez de le copier et de le coller dans la barre d'adresse de votre navigateur web.<br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue."
     test:
       title:
-        other: "[{{.SiteName}}] Email de test"
+        other: "[{{.SiteName}}] E-mail de test"
       body:
         other: "Ceci est un e-mail de test.<br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue."
   action_activity_type:
@@ -820,7 +820,7 @@ ui:
     sign_up: S'inscrire
     account_recovery: Récupération de compte
     account_activation: Activation du compte
-    confirm_email: Confirmer l'email
+    confirm_email: Confirmer l'e-mail
     account_suspended: Compte suspendu
     admin: Admin
     change_email: Modifier l'e-mail
@@ -1190,7 +1190,7 @@ ui:
     msg:
       empty: Ne peut pas être vide.
     resend_email:
-      url_label: Êtes-vous sûr de vouloir renvoyer l'email d'activation ?
+      url_label: Êtes-vous sûr de vouloir renvoyer l'e-mail d'activation ?
       url_text: Vous pouvez également donner le lien d'activation ci-dessus à l'utilisateur.
   login:
     login_to_continue: Connectez-vous pour continuer
@@ -1205,9 +1205,9 @@ ui:
         range: Le nom doit contenir entre 2 et 30 caractères.
         character: 'Doit utiliser le jeu de caractères "a-z", "0-9", " - . _"'
     email:
-      label: Email
+      label: E-mail
       msg:
-        empty: L'email ne peut pas être vide.
+        empty: L'e-mail ne peut pas être vide.
     password:
       label: Mot de passe
       msg:
@@ -1217,7 +1217,7 @@ ui:
     page_title: Mot de passe oublié
     btn_name: Envoyer un e-mail de récupération
     send_success: >-
-      Si un compte est associé à <strong>{{mail}}</strong>, vous recevrez un email contenant les instructions pour réinitialiser votre mot de passe.
+      Si un compte est associé à <strong>{{mail}}</strong>, vous recevrez un e-mail contenant les instructions pour réinitialiser votre mot de passe.
     email:
       label: E-mail
       msg:
@@ -1226,11 +1226,11 @@ ui:
     btn_cancel: Annuler
     btn_update: Mettre à jour l'adresse e-mail
     send_success: >-
-      Si un compte est associé à <strong>{{mail}}</strong>, vous recevrez un email contenant les instructions pour réinitialiser votre mot de passe.
+      Si un compte est associé à <strong>{{mail}}</strong>, vous recevrez un e-mail contenant les instructions pour réinitialiser votre mot de passe.
     email:
       label: Nouvel e-mail
       msg:
-        empty: L'email ne peut pas être vide.
+        empty: L'e-mail ne peut pas être vide.
   oauth:
     connect: Se connecter avec {{ auth_name }}
     remove: Retirer {{ auth_name }}
@@ -1238,10 +1238,10 @@ ui:
     subtitle: Ajoutez un e-mail de récupération à votre compte.
     btn_update: Mettre à jour l'adresse e-mail
     email:
-      label: Email
+      label: E-mail
       msg:
-        empty: L'email ne peut pas être vide.
-    modal_title: L'email existe déjà.
+        empty: L'e-mail ne peut pas être vide.
+    modal_title: L'e-mail existe déjà.
     modal_content: Cette adresse e-mail est déjà enregistrée. Êtes-vous sûr de vouloir vous connecter au compte existant ?
     modal_cancel: Modifier l'adresse e-mail
     modal_confirm: Se connecter au compte existant
@@ -1318,7 +1318,7 @@ ui:
       change_email_info: >-
         Nous vous avons envoyé un mail à cette adresse. Merci de suivre les instructions.
       email:
-        label: Email
+        label: E-mail
       new_email:
         label: Nouvel e-mail
         msg: La nouvelle adresse e-mail ne peut pas être vide.
@@ -1535,9 +1535,9 @@ ui:
     link: Continuer vers la page d'accueil
     oops: Oups !
     invalid: Le lien que vous utilisez ne fonctionne plus.
-    confirm_new_email: Votre adresse email a été mise à jour.
+    confirm_new_email: Votre adresse e-mail a été mise à jour.
     confirm_new_email_invalid: >-
-      Désolé, ce lien de confirmation n'est plus valide. Votre email est peut-être déjà modifié ?
+      Désolé, ce lien de confirmation n'est plus valide. Votre e-mail est peut-être déjà modifié ?
   unsubscribe:
     page_title: Se désabonner
     success_title: Désabonnement réussi
@@ -1670,11 +1670,11 @@ ui:
         incorrect: Le format de l'URL est incorrect.
         max_length: L'URL du site doit avoir une longueur maximale de 512 caractères.
     contact_email:
-      label: Email de contact
-      text: L'adresse email du responsable du site.
+      label: E-mail de contact
+      text: L'adresse e-mail du responsable du site.
       msg:
-        empty: L'email de contact ne peut pas être vide.
-        incorrect: Le format de l'email du contact est incorrect.
+        empty: L'e-mail de contact ne peut pas être vide.
+        incorrect: Le format de l'e-mail du contact est incorrect.
     login_required:
       label: Privé
       switch: Connexion requise
@@ -1696,11 +1696,11 @@ ui:
       text: "Please re-enter your password to confirm."
       msg: "Confirm password does not match."
     admin_email:
-      label: Email
-      text: Vous aurez besoin de cet email pour vous connecter.
+      label: E-mail
+      text: Vous aurez besoin de cet e-mail pour vous connecter.
       msg:
-        empty: L'email ne peut pas être vide.
-        incorrect: Le format de l'email est incorrect.
+        empty: L'e-mail ne peut pas être vide.
+        incorrect: Le format de l'e-mail est incorrect.
     ready_title: Votre site est prêt
     ready_desc: >-
       Si vous avez envie de changer plus de paramètres, visitez la <1>section admin</1>; retrouvez la dans le menu du site.
@@ -1857,7 +1857,7 @@ ui:
             label: Nom d'utilisateur
             msg_range: Username must be 2-30 characters in length.
           email:
-            label: Email
+            label: E-mail
             msg_invalid: Adresse e-mail non valide.
       edit_success: Modifié avec succès
       btn_cancel: Annuler
@@ -1869,14 +1869,14 @@ ui:
           users:
             label: Ajouter des utilisateurs en masse
             placeholder: "John Smith, john@example.com, BUSYopr2\nAlice, alice@example.com, fpDntV8q"
-            text: Séparez « nom, email, mot de passe » par des virgules. Un utilisateur par ligne.
-            msg: "Veuillez entrer l'email de l'utilisateur, un par ligne."
+            text: Séparez « nom, e-mail, mot de passe » par des virgules. Un utilisateur par ligne.
+            msg: "Veuillez entrer l'e-mail de l'utilisateur, un par ligne."
           display_name:
             label: Nom affiché
             msg: Le nom affiché doit avoir une longueur de 2 à 30 caractères.
           email:
-            label: Email
-            msg: L'email n'est pas valide.
+            label: E-mail
+            msg: L'e-mail n'est pas valide.
           password:
             label: Mot de passe
             msg: Le mot de passe doit comporter entre 8 et 32 caractères.
@@ -1914,7 +1914,7 @@ ui:
       add_user: Ajouter un utilisateur
       deactivate_user:
         title: Désactiver l'utilisateur
-        content: Un utilisateur inactif doit revalider son email.
+        content: Un utilisateur inactif doit revalider son e-mail.
       delete_user:
         title: Supprimer cet utilisateur
         content: Êtes-vous sûr de vouloir supprimer cet utilisateur ? Cette action est définitive !
@@ -1967,10 +1967,10 @@ ui:
         msg: La description du site ne peut pas être vide.
         text: "Décrivez ce site en une phrase, telle qu'elle apparait dans la balise meta description."
       contact_email:
-        label: Email du contact
-        msg: L'email de contact ne peut pas être vide.
-        validate: L'email de contact n'est pas valide.
-        text: L'adresse email du responsable du site.
+        label: E-mail du contact
+        msg: L'e-mail de contact ne peut pas être vide.
+        validate: L'e-mail de contact n'est pas valide.
+        text: L'adresse e-mail du responsable du site.
       check_update:
         label: Mises à jour logicielles
         text: Rechercher automatiquement les mises à jour
@@ -1988,16 +1988,16 @@ ui:
       page_title: SMTP
       from_email:
         label: E-mail de l'expéditeur
-        msg: L'email expéditeur ne peut pas être vide.
-        text: L'adresse email à partir de laquelle les emails sont envoyés.
+        msg: L'e-mail expéditeur ne peut pas être vide.
+        text: L'adresse à partir de laquelle les e-mails sont envoyés.
       from_name:
         label: Nom de l'expéditeur
-        msg: Le nom expéditeur ne peut pas être vide.
-        text: Le nom d'expéditeur à partir duquel les emails sont envoyés.
+        msg: Le nom de l'expéditeur ne peut pas être vide.
+        text: Le nom d'expéditeur à partir duquel les e-mails sont envoyés.
       smtp_host:
         label: Serveur SMTP
-        msg: Le'hôte SMTP ne peut pas être vide.
-        text: Votre serveur de mail.
+        msg: Le serveur SMTP ne peut pas être vide.
+        text: Votre serveur de mail sortant.
       encryption:
         label: Chiffrement
         msg: Le chiffrement ne peut pas être vide.
@@ -2008,7 +2008,7 @@ ui:
       smtp_port:
         label: Port SMTP
         msg: Le port SMTP doit être compris entre 1 et 65535.
-        text: Le port vers votre serveur d'email.
+        text: Le port vers votre serveur d'e-mail.
       smtp_username:
         label: Utilisateur SMTP
         msg: Le nom d'utilisateur SMTP ne peut pas être vide.
@@ -2017,8 +2017,8 @@ ui:
         msg: Le mot de passe SMTP ne peut être vide.
       test_email_recipient:
         label: Destinataires des e-mails de test
-        text: Indiquez l'adresse email qui recevra l'email de test.
-        msg: Le destinataire de l'email de test est invalide
+        text: Indiquez l'adresse e-mail qui recevra les envois de test.
+        msg: Le destinataire de l'e-mail de test est invalide
       smtp_authentication:
         label: Activer l'authentification
         title: Authentification SMTP
@@ -2138,7 +2138,7 @@ ui:
         label: Autoriser l'inscription par e-mail
         text: Désactiver pour empêcher toute personne de créer un nouveau compte par e-mail.
       allowed_email_domains:
-        title: Domaines d'email autorisés
+        title: Domaines d'e-mail autorisés
         text: Domaines de messagerie avec lesquels les utilisateurs peuvent créer des comptes. Un domaine par ligne. Ignoré si vide.
       private:
         title: Privé
