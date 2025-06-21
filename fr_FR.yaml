@@ -1363,8 +1363,8 @@ ui:
     description: Questions liées à
     no_linked_question: Aucune question liée à cette question.
   invite_to_answer:
-    title: Personnes interrogées
-    desc: Invite people who you think might know the answer.
+    title: Personnes invitées
+    desc: Invitez des personnes que vous pensez compétentes sur cette question.
     invite: Inviter à répondre
     add: Ajouter des personnes
     search: Rechercher des personnes
