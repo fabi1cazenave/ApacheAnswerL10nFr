@@ -1714,7 +1714,7 @@ ui:
       Il semble que se soit déjà installé. Pour tout réinstaller, veuillez d'abord nettoyer votre ancienne base de données.
     db_failed: La connexion à la base de données a échoué
     db_failed_desc: >-
-      Cela signifie soit qgit config --global --add safe.directory /data/i18nue les informations de la base de données dans votre fichier <1>config.yaml</1> sont incorrectes, soit que le contact avec la base de données n'a pas pu être établi. Cela pourrait signifier que le serveur de base de données de votre hôte est hors-service.
+      Cela signifie que soit les informations de la base de données dans votre fichier <1>config.yaml</1> sont incorrectes, soit le contact avec la base de données n'a pas pu être établi. Cela pourrait signifier que le serveur de base de données de votre hôte est hors-service.
   counts:
     views: vues
     votes: votes
