@@ -432,13 +432,13 @@ backend:
   notification:
     action:
       update_question:
-        other: question mise à jour
+        other: a mis à jour la question
       answer_the_question:
-        other: question répondue
+        other: a répondu à la question
       update_answer:
-        other: réponse mise à jour
+        other: a mis à jour la réponse
       accept_answer:
-        other: réponse acceptée
+        other: a accepté la réponse
       comment_question:
         other: a commenté la question
       comment_answer:
@@ -456,15 +456,15 @@ backend:
       your_comment_was_deleted:
         other: Votre commentaire a été supprimé
       up_voted_question:
-        other: question approuvée
+        other: a approuvé la question
       down_voted_question:
-        other: question désapprouvée
+        other: a désapprouvé la question
       up_voted_answer:
-        other: approuver la réponse
+        other: a approuvé la réponse
       down_voted_answer:
-        other: réponse désapprouvée
+        other: a désapprouvé la réponse
       up_voted_comment:
-        other: commentaire approuvé
+        other: a approuvé le commentaire
       invited_you_to_answer:
         other: vous invite à répondre
       earned_badge:
