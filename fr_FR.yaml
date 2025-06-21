@@ -466,7 +466,7 @@ backend:
       up_voted_comment:
         other: a approuvé le commentaire
       invited_you_to_answer:
-        other: vous invite à répondre
+        other: vous a invité à répondre
       earned_badge:
         other: Vous avez gagné le badge "{{.BadgeName}}"
   email_tpl:
