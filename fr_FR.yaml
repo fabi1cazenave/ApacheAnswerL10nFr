@@ -116,11 +116,11 @@ backend:
     rank_question_edit_label:
       other: Modifier la question des autres (à valider)
     rank_answer_edit_label:
-      other: Modifier la réponse d'un autre (à valider)
+      other: Modifier la réponse d’une autre personne (à valider)
     rank_question_edit_without_review_label:
-      other: Modifier la question d'un autre utilisateur sans révision
+      other: Modifier la question d’une autre personne sans révision
     rank_answer_edit_without_review_label:
-      other: Modifier la réponse d'un autre utilisateur sans révision
+      other: Modifier la réponse d’une autre personne sans révision
     rank_question_audit_label:
       other: Vérifier la question
     rank_answer_audit_label:
@@ -289,7 +289,7 @@ backend:
       username_invalid:
         other: L’identifiant est invalide.
       username_duplicate:
-        other: L’identifiant déjà utilisé.
+        other: L’identifiant est déjà utilisé.
       set_avatar:
         other: La configuration de l'avatar a échoué.
       cannot_update_your_role:
@@ -474,42 +474,42 @@ backend:
       title:
         other: "[{{.SiteName}}] Confirmez votre nouvelle adresse e-mail"
       body:
-        other: "Confirmez votre nouvelle adresse électronique pour {{.SiteName}} en cliquant sur le lien suivant :<br>\n<a href='{{.ChangeEmailUrl}}' target='_blank'>{{.ChangeEmailUrl}}</a><br><br>\n\nSi vous n'avez pas demandé ce changement, veuillez ignorer cet e-mail.<br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue."
+        other: "Confirmez votre nouvelle adresse électronique pour {{.SiteName}} en cliquant sur le lien suivant :<br>\n<a href='{{.ChangeEmailUrl}}' target='_blank'>{{.ChangeEmailUrl}}</a><br><br>\n\nSi vous n'avez pas demandé ce changement, veuillez ignorer cet e-mail.<br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue."
     new_answer:
       title:
         other: "[{{.SiteName}}] {{.DisplayName}} a répondu à votre question"
       body:
-        other: "<a href='{{.AnswerUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>{{.AnswerSummary}}</blockquote><br>\n<a href='{{.AnswerUrl}}'>Voir sur {{.SiteName}}</a><br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Désabonner</a></small>"
+        other: "<a href='{{.AnswerUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>{{.AnswerSummary}}</blockquote><br>\n<a href='{{.AnswerUrl}}'>Voir sur {{.SiteName}}</a><br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Se désabonner</a></small>"
     invited_you_to_answer:
       title:
         other: "[{{.SiteName}}] {{.DisplayName}} vous a invité à répondre"
       body:
-        other: "<a href='{{.InviteUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>Je pense que vous pourriez connaître la réponse.</blockquote><br>\n<a href='{{.InviteUrl}}'>Voir sur {{.SiteName}}</a><br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Désabonner</a></small>"
+        other: "<a href='{{.InviteUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>Je pense que vous pourriez connaître la réponse.</blockquote><br>\n<a href='{{.InviteUrl}}'>Voir sur {{.SiteName}}</a><br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Se désabonner</a></small>"
     new_comment:
       title:
         other: "[{{.SiteName}}] {{.DisplayName}} a commenté votre message"
       body:
-        other: "<a href='{{.CommentUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>{{.CommentSummary}}</blockquote><br>\n<a href='{{.CommentUrl}}'>Voir sur {{.SiteName}}</a><br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Désabonner</a></small>"
+        other: "<a href='{{.CommentUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>{{.CommentSummary}}</blockquote><br>\n<a href='{{.CommentUrl}}'>Voir sur {{.SiteName}}</a><br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Se désabonner</a></small>"
     new_question:
       title:
         other: "[{{.SiteName}}] Nouvelle question : {{.QuestionTitle}}"
       body:
-        other: "<a href='{{.QuestionUrl}}'>{{.QuestionTitle}}</a><br>\n<small>{{.Tags}}</small><br><br>\n\n--<br>\nNote: This is an automatic system email, please do not reply to this message as your response will not be seen.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Unsubscribe</a></small>"
+        other: "<a href='{{.QuestionUrl}}'>{{.QuestionTitle}}</a><br>\n<small>{{.Tags}}</small><br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Se désabonner</a></small>"
     pass_reset:
       title:
         other: "[{{.SiteName }}] Réinitialisation du mot de passe"
       body:
-        other: "Quelqu'un a demandé à réinitialiser votre mot de passe sur {{.SiteName}}.<br><br>\n\nSi ce n'était pas vous, vous pouvez ignorer cet e-mail en toute sécurité.<br><br>\n\nCliquez sur le lien suivant pour choisir un nouveau mot de passe :<br>\n<a href='{{.PassResetUrl}}' target='_blank'>{{.PassResetUrl}}</a>\n<br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue."
+        other: "Quelqu'un a demandé à réinitialiser votre mot de passe sur {{.SiteName}}.<br><br>\n\nSi ce n'était pas vous, vous pouvez ignorer cet e-mail en toute sécurité.<br><br>\n\nCliquez sur le lien suivant pour choisir un nouveau mot de passe :<br>\n<a href='{{.PassResetUrl}}' target='_blank'>{{.PassResetUrl}}</a>\n<br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue."
     register:
       title:
         other: "[{{.SiteName}}] Confirmez la création de votre compte"
       body:
-        other: "Bienvenue sur {{.SiteName}}!<br><br>\n\nCliquez sur le lien suivant pour confirmer et activer votre nouveau compte :<br>\n<a href='{{.RegisterUrl}}' target='_blank'>{{.RegisterUrl}}</a><br><br>\n\nSi le lien ci-dessus n'est pas cliquable, essayez de le copier et de le coller dans la barre d'adresse de votre navigateur web.<br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue."
+        other: "Bienvenue sur {{.SiteName}}!<br><br>\n\nCliquez sur le lien suivant pour confirmer et activer votre nouveau compte :<br>\n<a href='{{.RegisterUrl}}' target='_blank'>{{.RegisterUrl}}</a><br><br>\n\nSi le lien ci-dessus n'est pas cliquable, essayez de le copier et de le coller dans la barre d'adresse de votre navigateur Web.<br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue."
     test:
       title:
         other: "[{{.SiteName}}] E-mail de test"
       body:
-        other: "Ceci est un e-mail de test.<br><br>\n\n--<br>\nNote : Ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas vue."
+        other: "Ceci est un e-mail de test.<br><br>\n\n--<br>\nNote : ceci est un e-mail automatisé du système, merci de ne pas répondre à ce message car votre réponse ne sera pas lue."
   action_activity_type:
     upvote:
       other: vote positif
@@ -699,7 +699,7 @@ backend:
           other: A reçu 2 vote positif sur 100 posts.
       admired:
         name:
-          other: Admirée
+          other: Admiré
         desc:
           other: A reçu 5 vote positif sur 300 messages.
       solved:
@@ -981,7 +981,7 @@ ui:
     msg:
       empty: Veuillez sélectionner une raison s'il vous plaît.
       not_a_url: Le format de l'URL est incorrect.
-      url_not_match: L'origine de l'URL ne correspond pas au site web actuel.
+      url_not_match: L'origine de l'URL ne correspond pas au site Web actuel.
   tag_modal:
     title: Créer une nouvelle étiquette
     form:
@@ -1295,7 +1295,7 @@ ui:
       website:
         label: Site Web
         placeholder: "https://exemple.com"
-        msg: Format du site web incorrect
+        msg: Format du site Web incorrect
       location:
         label: Position
         placeholder: "Ville, Pays"
@@ -2051,7 +2051,7 @@ ui:
         text: "Vous pouvez ajouter le contenu des conditions de service ici. Si vous avez déjà un document hébergé ailleurs, veuillez fournir l'URL complète ici."
       external_content_display:
         label: Contenu externe
-        text: "Le contenu inclut des images, vidéos et média provenant de sites web externes."
+        text: "Le contenu inclut des images, vidéos et média provenant de sites Web externes."
         always_display: Toujours afficher le contenu externe
         ask_before_display: Demander avant d’afficher le contenu externe
     write:
@@ -2182,7 +2182,7 @@ ui:
       allow_update_bio:
         label: Permettre aux utilisateurs de changer leur biographie
       allow_update_website:
-        label: Permettre aux utilisateurs de modifier leur site web
+        label: Permettre aux utilisateurs de modifier leur site Web
       allow_update_location:
         label: Permettre aux utilisateurs de modifier leur position
     privilege:
