@@ -1777,30 +1777,30 @@ ui:
       title: Tableau de bord
       welcome: Bienvenue dans l'admin !
       site_statistics: Statistiques du site
-      questions: "Questions :"
-      resolved: "Résolu :"
-      unanswered: "Sans réponse :"
-      answers: "Réponses :"
-      comments: "Commentaires:"
-      votes: "Votes :"
-      users: "Utilisateurs :"
-      flags: "Signalements:"
-      reviews: "Revoir :"
+      questions: "Questions :"
+      resolved: "Résolu :"
+      unanswered: "Sans réponse :"
+      answers: "Réponses :"
+      comments: "Commentaires :"
+      votes: "Votes :"
+      users: "Utilisateurs :"
+      flags: "Signalements :"
+      reviews: "Validations :"
       site_health: État du site
       version: "Version :"
       https: "HTTPS :"
-      upload_folder: "Dossier de téléversement :"
-      run_mode: "Mode de fonctionnement :"
+      upload_folder: "Dossier de téléversement :"
+      run_mode: "Mode de fonctionnement :"
       private: Privé
       public: Public
-      smtp: "SMTP :"
-      timezone: "Fuseau horaire :"
+      smtp: "SMTP :"
+      timezone: "Fuseau horaire :"
       system_info: Informations système
-      go_version: "Version de Go :"
-      database: "Base de donnée :"
-      database_size: "Taille de la base de données :"
-      storage_used: "Stockage utilisé :"
-      uptime: "Uptime :"
+      go_version: "Version de Go :"
+      database: "Base de données :"
+      database_size: "Taille de la base de données :"
+      storage_used: "Stockage utilisé :"
+      uptime: "Uptime :"
       links: Liens
       plugins: Extensions
       github: GitHub
