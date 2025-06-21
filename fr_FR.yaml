@@ -397,17 +397,17 @@ backend:
         name:
           other: courrier indésirable
         desc:
-          other: Cette question a déjà été posée auparavant et a déjà une réponse.
+          other: Cette question a été posée auparavant et a déjà une réponse.
       guideline:
         name:
           other: une raison spécifique à la communauté
         desc:
-          other: Cette question ne répond pas à une directive de la communauté.
+          other: Cette question enfreint le code de conduite de la communauté.
       multiple:
         name:
           other: a besoin de détails ou de clarté
         desc:
-          other: Cette question comprend actuellement plusieurs questions en une seule. Elle ne devrait se concentrer que sur un seul problème.
+          other: Cette question comprend actuellement plusieurs questions en une seule. Elle devrait se concentrer sur un seul problème.
       other:
         name:
           other: quelque chose d'autre
@@ -450,19 +450,19 @@ backend:
       your_question_is_closed:
         other: Une réponse a été publiée pour votre question
       your_question_was_deleted:
-        other: Une réponse a été publiée pour votre question
+        other: Votre questiop a été supprimée
       your_answer_was_deleted:
-        other: Votre réponse a bien été supprimée
+        other: Votre réponse a été supprimée
       your_comment_was_deleted:
         other: Votre commentaire a été supprimé
       up_voted_question:
         other: question approuvée
       down_voted_question:
-        other: question défavorisée
+        other: question désapprouvée
       up_voted_answer:
-        other: voter favorablement la réponse
+        other: approuver la réponse
       down_voted_answer:
-        other: réponse défavorisée
+        other: réponse désapprouvée
       up_voted_comment:
         other: commentaire approuvé
       invited_you_to_answer:
@@ -2050,10 +2050,10 @@ ui:
         label: Protection des données
         text: "Vous pouvez ajouter le contenu des conditions de service ici. Si vous avez déjà un document hébergé ailleurs, veuillez fournir l'URL complète ici."
       external_content_display:
-        label: External content
-        text: "Content includes images, videos, and media embedded from external websites."
-        always_display: Always display external content
-        ask_before_display: Ask before displaying external content
+        label: Contenu externe
+        text: "Le contenu inclut des images, vidéos et média provenant de sites web externes."
+        always_display: Toujours afficher le contenu externe
+        ask_before_display: Demander avant d’afficher le contenu externe
     write:
       page_title: Écrire
       restrict_answer:
