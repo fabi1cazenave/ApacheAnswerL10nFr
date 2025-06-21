@@ -287,9 +287,9 @@ backend:
       suspended:
         other: L'utilisateur a été suspendu.
       username_invalid:
-        other: Le nom d'utilisateur est invalide.
+        other: L’identifiant est invalide.
       username_duplicate:
-        other: Nom d'utilisateur déjà utilisé.
+        other: L’identifiant déjà utilisé.
       set_avatar:
         other: La configuration de l'avatar a échoué.
       cannot_update_your_role:
@@ -1275,12 +1275,12 @@ ui:
       display_name:
         label: Nom affiché
         msg: Le nom ne peut être vide.
-        msg_range: Display name must be 2-30 characters in length.
+        msg_range: Le nom affiché doit contenir entre 2 et 30 caractères.
       username:
-        label: Nom d'utilisateur
-        caption: Les gens peuvent vous mentionner avec "@username".
-        msg: Le nom d'utilisateur ne peut pas être vide.
-        msg_range: Username must be 2-30 characters in length.
+        label: Identifiant
+        caption: Les gens peuvent vous mentionner avec "@identifiant".
+        msg: L’identifiant ne peut pas être vide.
+        msg_range: L’identifiant doit contenir entre 2 et 30 caractères.
         character: 'Doit utiliser seulement les caractères "a-z", "0-9", " - . _"'
       avatar:
         label: Photo de profil
@@ -1511,7 +1511,7 @@ ui:
     tips:
       title: Astuces de recherche avancée
       tag: "<1>[étiquette]</1> recherche à l'aide d'une étiquette"
-      user: "<1>utilisateur:username</1> recherche par auteur"
+      user: "<1>utilisateur:identifiant</1> recherche par auteur"
       answer: "<1>réponses:0</1> questions sans réponses"
       score: "<1>score:3</1> messages avec plus de 3 points"
       question: "<1>est:question</1> rechercher des questions"
@@ -1614,9 +1614,9 @@ ui:
     db_type:
       label: Moteur de base de données
     db_username:
-      label: Nom d'utilisateur
+      label: Utilisateur BDD
       placeholder: root
-      msg: Le nom d'utilisateur ne peut pas être vide.
+      msg: L’identifiant ne peut pas être vide.
     db_password:
       label: Mot de passe
       placeholder: root
@@ -1854,8 +1854,8 @@ ui:
             label: Nom affiché
             msg_range: Le nom affiché doit contenir entre 2 et 30 caractères.
           username:
-            label: Nom d'utilisateur
-            msg_range: Le nom d’utilisateur doit contenir entre 2 et 30 caractères.
+            label: Identifiant
+            msg_range: L’identifiant doit contenir entre 2 et 30 caractères.
           email:
             label: E-mail
             msg_invalid: Adresse e-mail non valide.
