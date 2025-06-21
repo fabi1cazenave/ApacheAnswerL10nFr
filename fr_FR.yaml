@@ -112,11 +112,11 @@ backend:
     rank_tag_add_label:
       other: Créer une nouvelle étiquette
     rank_tag_edit_label:
-      other: Modifier la description de la balise (à réviser)
+      other: Modifier la description de l’étiquette (à valider)
     rank_question_edit_label:
-      other: Modifier la question des autres (à revoir)
+      other: Modifier la question des autres (à valider)
     rank_answer_edit_label:
-      other: Modifier la réponse d'un autre (à revoir)
+      other: Modifier la réponse d'un autre (à valider)
     rank_question_edit_without_review_label:
       other: Modifier la question d'un autre utilisateur sans révision
     rank_answer_edit_without_review_label:
@@ -126,11 +126,11 @@ backend:
     rank_answer_audit_label:
       other: Revoir les modifications de la réponse
     rank_tag_audit_label:
-      other: Évaluer les modifications des tags
+      other: Évaluer les modifications des étiquettes
     rank_tag_edit_without_review_label:
-      other: Modifier la description du tag sans révision
+      other: Modifier la description d’étiquettes sans validation
     rank_tag_synonym_label:
-      other: Gérer les tags synonymes
+      other: Gérer les étiquettes synonymes
   email:
     other: E-mail
   e_mail:
@@ -248,19 +248,19 @@ backend:
         other: Rapport non trouvé.
     tag:
       already_exist:
-        other: Le tag existe déjà.
+        other: L’étiquette existe déjà.
       not_found:
-        other: Tag non trouvé.
+        other: Étiquette non trouvée.
       recommend_tag_not_found:
-        other: Le tag Recommandé n'existe pas.
+        other: L’étiquette ecommandée n'existe pas.
       recommend_tag_enter:
-        other: Veuillez saisir au moins un tag.
+        other: Veuillez saisir au moins une étiquette.
       not_contain_synonym_tags:
-        other: Ne dois pas contenir de tags synonymes.
+        other: Ne dois pas contenir d’étiquettes synonymes.
       cannot_update:
         other: Pas de permission pour mettre à jour.
       is_used_cannot_delete:
-        other: Vous ne pouvez pas supprimer un tag utilisé.
+        other: Vous ne pouvez pas supprimer une étiquette utilisée.
       cannot_set_synonym_as_itself:
         other: Vous ne pouvez pas définir le synonyme de la balise actuelle comme elle-même.
     smtp:
@@ -619,7 +619,7 @@ backend:
           other: A partagé un post avec 300 visiteurs uniques.
       great_share:
         name:
-          other: Super Partage
+          other: Super partage
         desc:
           other: A partagé un post avec 1000 visiteurs uniques.
       out_of_love:
@@ -807,7 +807,7 @@ ui:
     tag: Étiquette
     tags: Étiquettes
     tag_wiki: tag wiki
-    create_tag: Créer un tag
+    create_tag: Créer une étiquette
     edit_tag: Modifier l'étiquette
     ask_a_question: Ajouter une question
     edit_question: Modifier la question
@@ -983,7 +983,7 @@ ui:
       not_a_url: Le format de l'URL est incorrect.
       url_not_match: L'origine de l'URL ne correspond pas au site web actuel.
   tag_modal:
-    title: Créer un nouveau tag
+    title: Créer une nouvelle étiquette
     form:
       fields:
         display_name:
@@ -992,7 +992,7 @@ ui:
             empty: Le nom d'affichage ne peut être vide.
             range: Le nom doit contenir moins de 35 caractères.
         slug_name:
-          label: Limace d'URL
+          label: Slug d'URL
           desc: Titre de 35 caractères maximum.
           msg:
             empty: L'URL ne peut pas être vide.
@@ -1008,14 +1008,14 @@ ui:
             Expliquez brièvement vos modifications (orthographe corrigée, grammaire corrigée, mise en forme améliorée)
     btn_cancel: Annuler
     btn_submit: Valider
-    btn_post: Publier un nouveau tag
+    btn_post: Publier une nouvelle étiquette
   tag_info:
     created_at: Créé
     edited_at: Modifié
     history: Historique
     synonyms:
       title: Synonymes
-      text: Les tags suivants seront redistribués vers
+      text: Les étiquettes suivantes seront redistribuées vers
       empty: Aucun synonyme trouvé.
       btn_add: Ajouter un synonyme
       btn_edit: Modifier
@@ -1024,9 +1024,9 @@ ui:
     delete:
       title: Supprimer cette étiquette
       tip_with_posts: >-
-        <p>Nous ne permettons pas la <strong>suppression d'un tag avec des posts</strong></p><p>Veuillez d'abord supprimer ce tag des posts.</p>
+        <p>Nous ne permettons pas la <strong>suppression d'une étiquette avec des messages</strong></p><p>Veuillez d'abord supprimer cette étiquette des messages.</p>
       tip_with_synonyms: >-
-        <p>Nous ne permettons pas de <strong>supprimer un tag avec des synonymes</strong>.</p> <p>Veuillez d'abord supprimer les synonymes de ce tag.</p>
+        <p>Nous ne permettons pas de <strong>supprimer une étiquette avec des synonymes</strong>.</p> <p>Veuillez d'abord supprimer les synonymes de cette étiquette.</p>
       tip: Êtes-vous sûr de vouloir supprimer ?
       close: Fermer
     merge:
@@ -1039,9 +1039,9 @@ ui:
       btn_submit: Submit
       btn_close: Close
   edit_tag:
-    title: Editer le tag
-    default_reason: Éditer le tag
-    default_first_reason: Ajouter un tag
+    title: Modifier l’étiquette
+    default_reason: Modifier l’étiquette
+    default_first_reason: Ajouter une étiquette
     btn_save_edits: Enregistrer les modifications
     btn_cancel: Annuler
   dates:
@@ -1102,9 +1102,9 @@ ui:
     sort_buttons:
       popular: Populaire
       name: Nom
-      newest: Le plus récent
+      newest: La plus récente
     button_follow: Suivre
-    button_following: Abonnements
+    button_following: Suivie
     tag_label: questions
     search_placeholder: Filtrer par étiquette
     no_desc: L'étiquette n'a pas de description.
@@ -1309,8 +1309,8 @@ ui:
         label: Toutes les nouvelles questions
         description: Recevez une notification pour toutes les nouvelles questions. Jusqu'à 50 questions par semaine.
       all_new_question_for_following_tags:
-        label: Toutes les nouvelles questions pour les tags suivants
-        description: Recevez une notification pour toutes les nouvelles questions avec les tags suivants.
+        label: Toutes les nouvelles questions pour les étiquettes suivantes
+        description: Recevez une notification pour toutes les nouvelles questions avec les étiquettes suivantes.
     account:
       heading: Compte
       change_email_btn: Modifier l'adresse e-mail
@@ -1510,7 +1510,7 @@ ui:
       more: Plus
     tips:
       title: Astuces de recherche avancée
-      tag: "<1>[tag]</1> recherche à l'aide d'un tag"
+      tag: "<1>[étiquette]</1> recherche à l'aide d'une étiquette"
       user: "<1>utilisateur:username</1> recherche par auteur"
       answer: "<1>réponses:0</1> questions sans réponses"
       score: "<1>score:3</1> messages avec plus de 3 points"
@@ -1520,7 +1520,7 @@ ui:
   share:
     name: Partager
     copy: Copier le lien
-    via: Partager via...
+    via: Partager via…
     copied: Copié
     facebook: Partager sur Facebook
     twitter: Share to X
@@ -1544,10 +1544,10 @@ ui:
     success_desc: Vous avez été supprimé de cette liste d'abonnés avec succès et ne recevrez plus d'e-mails de notre part.
     link: Modifier les paramètres
   question:
-    following_tags: Tags suivis
+    following_tags: Étiquettes suivies
     edit: Éditer
     save: Enregistrer
-    follow_tag_tip: Suivez les tags pour organiser votre liste de questions.
+    follow_tag_tip: Suivez les étiquettes pour organiser votre liste de questions.
     hot_questions: Questions populaires
     all_questions: Toutes les questions
     x_questions: "{{ count }} questions"
@@ -1565,7 +1565,7 @@ ui:
     answered: répondu
     asked: demandé
     closed: fermé
-    follow_a_tag: Suivre ce tag
+    follow_a_tag: Suivre cette étiquette
     more: Plus
   personal:
     overview: Aperçu
@@ -2061,17 +2061,17 @@ ui:
         label: Chaque utilisateur ne peut écrire qu'une seule réponse par question
         text: "Désactivez pour permettre aux utilisateurs d'écrire plusieurs réponses à la même question, ce qui peut réduire la pertinence des réponses."
       recommend_tags:
-        label: Tags recommandés
-        text: "Les balises recommandées apparaîtront par défaut dans la liste déroulante."
+        label: Étiquettes recommandées
+        text: "Les étiqueddes recommandées apparaîtront par défaut dans la liste déroulante."
         msg:
-          contain_reserved: "les tags recommandés ne peuvent pas contenir de tags réservés"
+          contain_reserved: "les étiquettes recommandées ne peuvent pas contenir d’étiquettes réservées."
       required_tag:
-        title: Définir les tags nécessaires
-        label: Définir les balises « Recommander» comme balises requises
-        text: "Chaque nouvelle question doit avoir au moins un tag recommandé."
+        title: Définir les étiquettes nécessaires
+        label: Définir les « étiquettes recommandées » comme nécessaires
+        text: "Chaque nouvelle question doit avoir au moins une étiquette recommandée."
       reserved_tags:
-        label: Tags réservés
-        text: "Les tags réservés ne peuvent être ajoutés à un message que par un modérateur."
+        label: Étiquettes réservées
+        text: "Les étiquettes réservées ne peuvent être ajoutées à un message que par un modérateur."
       image_size:
         label: Taille maximale de l'image (MB)
         text: "La taille maximale de téléchargement d'image."
@@ -2220,7 +2220,7 @@ ui:
     proposed: proposé
     question_edit: Modifier la question
     answer_edit: Modifier la réponse
-    tag_edit: Modifier le tag
+    tag_edit: Modifier l’étiquette
     edit_summary: Modifier le résumé
     edit_question: Modifier la question
     edit_answer: Modifier la réponse
@@ -2267,7 +2267,7 @@ ui:
     n_or_a: N/A
     title_for_question: "Chronologie de"
     title_for_answer: "Chronologie de la réponse à {{ title }} par {{ author }}"
-    title_for_tag: "Chronologie pour le tag"
+    title_for_tag: "Chronologie pour l’étiquette"
     datetime: Date et heure
     type: Type
     by: Par
