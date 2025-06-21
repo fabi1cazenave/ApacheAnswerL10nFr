@@ -586,12 +586,12 @@ backend:
         name:
           other: Commentateur
         desc:
-          other: A laissé 5 commentaires.
+          other: A fait 5 commentaires.
       new_user_of_the_month:
         name:
           other: Nouvel utilisateur du mois
         desc:
-          other: Contributions hors-norme dès le premier mois.
+          other: Contributions hors norme dès le premier mois.
       read_guidelines:
         name:
           other: Lire le code de conduite
@@ -1024,10 +1024,12 @@ ui:
     delete:
       title: Supprimer cette étiquette
       tip_with_posts: >-
-        <p>Nous ne permettons pas la <strong>suppression d'une étiquette avec des messages</strong></p><p>Veuillez d'abord supprimer cette étiquette des messages.</p>
+        <p>Nous ne permettons pas la <strong>suppression d'une étiquette utilisée dans des messages</strong></p>
+        <p>Veuillez d'abord supprimer cette étiquette des messages concernés.</p>
       tip_with_synonyms: >-
-        <p>Nous ne permettons pas de <strong>supprimer une étiquette avec des synonymes</strong>.</p> <p>Veuillez d'abord supprimer les synonymes de cette étiquette.</p>
-      tip: Êtes-vous sûr de vouloir supprimer ?
+        <p>Nous ne permettons pas de <strong>supprimer une étiquette ayant des synonymes</strong>.</p>
+        <p>Veuillez d'abord supprimer les synonymes de cette étiquette.</p>
+      tip: Voulez-vous vraiment supprimer ?
       close: Fermer
     merge:
       title: Merge tag
@@ -1190,7 +1192,7 @@ ui:
     msg:
       empty: Ne peut pas être vide.
     resend_email:
-      url_label: Êtes-vous sûr de vouloir renvoyer l'e-mail d'activation ?
+      url_label: Voulez-vous vraiment renvoyer l'e-mail d'activation ?
       url_text: Vous pouvez également donner le lien d'activation ci-dessus à l'utilisateur.
   login:
     login_to_continue: Connectez-vous pour continuer
@@ -1242,7 +1244,7 @@ ui:
       msg:
         empty: L'e-mail ne peut pas être vide.
     modal_title: L'e-mail existe déjà.
-    modal_content: Cette adresse e-mail est déjà enregistrée. Êtes-vous sûr de vouloir vous connecter au compte existant ?
+    modal_content: Cette adresse e-mail est déjà enregistrée. Voulez-vous vraiment vous connecter au compte existant ?
     modal_cancel: Modifier l'adresse e-mail
     modal_confirm: Se connecter au compte existant
   password_reset:
@@ -1403,7 +1405,7 @@ ui:
       confirm_title: Continuer à répondre
       continue: Continuer
       confirm_info: >-
-        <p>Êtes-vous sûr de vouloir ajouter une autre réponse ?</p><p>Vous pouvez utiliser le lien d'édition pour affiner et améliorer votre réponse existante.</p>
+        <p>Voulez-vous vraiment ajouter une autre réponse ?</p><p>Vous pouvez utiliser le lien d'édition pour affiner et améliorer votre réponse existante.</p>
       empty: La réponse ne peut être vide.
       characters: le contenu doit comporter au moins 6 caractères.
       tips:
@@ -1415,29 +1417,29 @@ ui:
     reopen:
       confirm_btn: Rouvrir
       title: Rouvrir ce message
-      content: Êtes-vous sûr de vouloir rouvrir ?
+      content: Voulez-vous vraiment rouvrir ?
     list:
       confirm_btn: Liste
       title: Lister ce message
-      content: Êtes-vous sûr de vouloir lister ?
+      content: Voulez-vous vraiment lister ?
     unlist:
       confirm_btn: Délister
       title: Masquer ce message de la liste
-      content: Êtes-vous sûr de vouloir masquer ce message de la liste ?
+      content: Voulez-vous vraiment masquer ce message de la liste ?
     pin:
       title: Épingler cet article
-      content: Êtes-vous sûr de vouloir l'épingler globalement ? Ce message apparaîtra en haut de toutes les listes de messages.
+      content: Voulez-vous vraiment l'épingler globalement ? Ce message apparaîtra en haut de toutes les listes de messages.
       confirm_btn: Épingler
   delete:
     title: Supprimer la publication
     question: >-
-      Nous ne recommandons pas <strong>de supprimer des questions avec des réponses</strong> car cela prive les futurs lecteurs de cette connaissance.</p><p>Suppression répétée des questions répondues peut empêcher votre compte de poser. Êtes-vous sûr de vouloir supprimer ?
+      Nous ne recommandons pas <strong>de supprimer des questions avec des réponses</strong> car cela prive les futurs lecteurs de cette connaissance.</p><p>Suppression répétée des questions répondues peut empêcher votre compte de poser. Voulez-vous vraiment supprimer ?
     answer_accepted: >-
-      <p>Nous ne recommandons pas <strong>de supprimer la réponse acceptée</strong> car cela prive les futurs lecteurs de cette connaissance. </p> La suppression répétée des réponses acceptées peut empêcher votre compte de répondre. Êtes-vous sûr de vouloir supprimer ?
-    other: Êtes-vous sûr de vouloir supprimer ?
+      <p>Nous ne recommandons pas <strong>de supprimer la réponse acceptée</strong> car cela prive les futurs lecteurs de cette connaissance. </p> La suppression répétée des réponses acceptées peut empêcher votre compte de répondre. Voulez-vous vraiment supprimer ?
+    other: Voulez-vous vraiment supprimer ?
     tip_answer_deleted: Cette réponse a été supprimée
     undelete_title: Annuler la suppression de ce message
-    undelete_desc: Êtes-vous sûr de vouloir annuler la suppression ?
+    undelete_desc: Voulez-vous vraiment annuler la suppression ?
   btns:
     confirm: Confimer
     cancel: Annuler
@@ -1917,7 +1919,7 @@ ui:
         content: Un utilisateur inactif doit revalider son e-mail.
       delete_user:
         title: Supprimer cet utilisateur
-        content: Êtes-vous sûr de vouloir supprimer cet utilisateur ? Cette action est définitive !
+        content: Voulez-vous vraiment supprimer cet utilisateur ? Cette action est définitive !
         remove: Supprimer leur contenu
         label: Supprimer toutes les questions, réponses, commentaires, etc.
         text: Ne cochez pas cette case si vous souhaitez seulement supprimer le compte de l'utilisateur.
@@ -2284,7 +2286,7 @@ ui:
     leave_page: Voulez-vous vraiment quitter la page ?
     changes_not_save: Impossible d'enregistrer vos modifications.
   draft:
-    discard_confirm: Êtes-vous sûr de vouloir abandonner ce brouillon ?
+    discard_confirm: Voulez-vous vraiment abandonner ce brouillon ?
   messages:
     post_deleted: Ce message a été supprimé.
     post_cancel_deleted: Ce message a été restauré.
