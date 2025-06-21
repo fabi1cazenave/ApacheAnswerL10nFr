@@ -114,13 +114,13 @@ backend:
     rank_tag_edit_label:
       other: Modifier la description de l’étiquette (à valider)
     rank_question_edit_label:
-      other: Modifier la question des autres (à valider)
+      other: Modifier la question d’une autre personne (à valider)
     rank_answer_edit_label:
       other: Modifier la réponse d’une autre personne (à valider)
     rank_question_edit_without_review_label:
-      other: Modifier la question d’une autre personne sans révision
+      other: Modifier la question d’une autre personne sans validation
     rank_answer_edit_without_review_label:
-      other: Modifier la réponse d’une autre personne sans révision
+      other: Modifier la réponse d’une autre personne sans validation
     rank_question_audit_label:
       other: Vérifier la question
     rank_answer_audit_label:
@@ -148,9 +148,9 @@ backend:
   error:
     common:
       invalid_url:
-        other: URL invalide.
+        other: URL non valide.
       status_invalid:
-        other: Statut invalide.
+        other: Statut non valide.
     password:
       space_invalid:
         other: Le mot de passe ne doit pas comporter d'espaces.
@@ -287,7 +287,7 @@ backend:
       suspended:
         other: L'utilisateur a été suspendu.
       username_invalid:
-        other: L’identifiant est invalide.
+        other: L’identifiant n’est pas valide.
       username_duplicate:
         other: L’identifiant est déjà utilisé.
       set_avatar:
@@ -1312,7 +1312,7 @@ ui:
         description: Recevez une notification pour toutes les nouvelles questions. Jusqu'à 50 questions par semaine.
       all_new_question_for_following_tags:
         label: Toutes les nouvelles questions pour les étiquettes suivies
-        description: Recevez une notification pour toutes les nouvelles questions avec les étiquettes suivies.
+        description: Recevez une notification pour toutes les nouvelles questions portant les étiquettes suivies.
     account:
       heading: Compte
       change_email_btn: Modifier l'adresse e-mail
@@ -1342,7 +1342,7 @@ ui:
       heading: Interface
       lang:
         label: Langue de l'interface
-        text: Langue de l'interface utilisateur. Cela changera lorsque vous rafraîchirez la page.
+        text: Langue de l'interface utilisateur. Cela changera lorsque vous rafraichirez la page.
     my_logins:
       title: Mes identifiants
       label: Connectez-vous ou inscrivez-vous sur ce site en utilisant ces comptes.
@@ -1713,10 +1713,10 @@ ui:
     install_now: Vous pouvez essayer de <1>l'installer maintenant</1>.
     installed: Déjà installé
     installed_desc: >-
-      Il semble que se soit déjà installé. Pour tout réinstaller, veuillez d'abord nettoyer votre ancienne base de données.
+      Il semble que ce soit déjà installé. Pour tout réinstaller, veuillez d'abord nettoyer votre ancienne base de données.
     db_failed: La connexion à la base de données a échoué
     db_failed_desc: >-
-      Cela signifie que soit les informations de la base de données dans votre fichier <1>config.yaml</1> sont incorrectes, soit le contact avec la base de données n'a pas pu être établi. Cela pourrait signifier que le serveur de base de données de votre hôte est hors-service.
+      Cela signifie que soit les informations de la base de données dans votre fichier <1>config.yaml</1> sont incorrectes, soit le contact avec la base de données n'a pas pu être établi. Cela pourrait signifier que le serveur de base de données de votre hôte est hors service.
   counts:
     views: vues
     votes: votes
@@ -1872,7 +1872,7 @@ ui:
             label: Ajouter des utilisateurs en masse
             placeholder: "John Smith, john@example.com, BUSYopr2\nAlice, alice@example.com, fpDntV8q"
             text: Séparez « nom, e-mail, mot de passe » par des virgules. Un utilisateur par ligne.
-            msg: "Veuillez entrer l'e-mail de l'utilisateur, un par ligne."
+            msg: "Veuillez saisir l'e-mail de l'utilisateur, un par ligne."
           display_name:
             label: Nom affiché
             msg: Le nom affiché doit contenir entre 2 et 30 caractères.
@@ -1916,7 +1916,7 @@ ui:
       add_user: Ajouter un utilisateur
       deactivate_user:
         title: Désactiver l'utilisateur
-        content: Un utilisateur inactif doit revalider son e-mail.
+        content: Un utilisateur inactif doit valider de nouveau son e-mail.
       delete_user:
         title: Supprimer cet utilisateur
         content: Voulez-vous vraiment supprimer cet utilisateur ? Cette action est définitive !
@@ -1967,7 +1967,7 @@ ui:
       desc:
         label: Description du site
         msg: La description du site ne peut pas être vide.
-        text: "Décrivez ce site en une phrase, telle qu'elle apparait dans la balise meta description."
+        text: "Décrivez ce site en une phrase, comme dans la balise meta description."
       contact_email:
         label: E-mail du contact
         msg: L'e-mail de contact ne peut pas être vide.
@@ -1981,7 +1981,7 @@ ui:
       language:
         label: Langue de l'interface
         msg: La langue de l'interface ne peut pas être vide.
-        text: Langue de l'interface de l'utilisateur. Cela changera lorsque vous rafraîchirez la page.
+        text: Langue de l'interface de l'utilisateur. Cela changera lorsque vous rafraichirez la page.
       time_zone:
         label: Fuseau horaire
         msg: Le fuseau horaire ne peut pas être vide.
@@ -2020,7 +2020,7 @@ ui:
       test_email_recipient:
         label: Destinataires des e-mails de test
         text: Indiquez l'adresse e-mail qui recevra les envois de test.
-        msg: Le destinataire de l'e-mail de test est invalide
+        msg: Le destinataire de l'e-mail de test n’est pas valide.
       smtp_authentication:
         label: Activer l'authentification
         title: Authentification SMTP
@@ -2053,7 +2053,7 @@ ui:
         text: "Vous pouvez ajouter le contenu des conditions de service ici. Si vous avez déjà un document hébergé ailleurs, veuillez fournir l'URL complète ici."
       external_content_display:
         label: Contenu externe
-        text: "Le contenu inclut des images, vidéos et média provenant de sites Web externes."
+        text: "Le contenu inclut des images, des vidéos et des médias provenant de sites Web externes."
         always_display: Toujours afficher le contenu externe
         ask_before_display: Demander avant d’afficher le contenu externe
     write:
@@ -2064,7 +2064,7 @@ ui:
         text: "Désactivez pour permettre aux utilisateurs d'écrire plusieurs réponses à la même question, ce qui peut réduire la pertinence des réponses."
       recommend_tags:
         label: Étiquettes recommandées
-        text: "Les étiqueddes recommandées apparaîtront par défaut dans la liste déroulante."
+        text: "Les étiquettes recommandées apparaitront par défaut dans la liste déroulante."
         msg:
           contain_reserved: "les étiquettes recommandées ne peuvent pas contenir d’étiquettes réservées."
       required_tag:
@@ -2088,7 +2088,7 @@ ui:
         text: "Une liste d'extensions de fichier autorisées pour l'affichage d'image, séparées par des virgules."
       attachment_extensions:
         label: Extensions de pièces jointes autorisées
-        text: "Une liste d'extensions de fichier autorisées pour le téléchargement, séparées par des virgules. ATTENTION : autoriser les envois peut causer des problèmes de sécurité."
+        text: "Une liste d'extensions de fichier autorisées pour le téléversement, séparées par des virgules. ATTENTION : autoriser les envois peut causer des problèmes de sécurité."
     seo:
       page_title: Référencement
       permalink:
@@ -2213,7 +2213,7 @@ ui:
   form:
     optional: (optionnel)
     empty: ne peut pas être vide
-    invalid: est invalide
+    invalid: n’est pas valide
     btn_submit: Sauvegarder
     not_found_props: "La propriété requise {{ key }} est introuvable."
     select: Sélectionner
@@ -2313,6 +2313,6 @@ ui:
     answers_deleted: Ces réponses ont été supprimées.
     copy: Copier dans le presse-papier
     copied: Copié
-    external_content_warning: Les images/medias externes ne sont pas affichés.
+    external_content_warning: Les images/médias externes ne sont pas affichés.
 
 
