@@ -843,7 +843,7 @@ ui:
     someone: Quelqu'un
     inbox_type:
       all: Tous
-      posts: Publications
+      posts: Messages
       invites: Invitations
       votes: Votes
     answer: Réponse
