@@ -1541,10 +1541,10 @@ ui:
   unsubscribe:
     page_title: Se désabonner
     success_title: Désabonnement réussi
-    success_desc: Vous avez été supprimé de cette liste d'abonnés avec succès et ne recevrez plus d'e-mails.
+    success_desc: Vous avez été supprimé de cette liste d'abonnés avec succès et ne recevrez plus d'e-mails de notre part.
     link: Modifier les paramètres
   question:
-    following_tags: Hashtags suivis
+    following_tags: Tags suivis
     edit: Éditer
     save: Enregistrer
     follow_tag_tip: Suivez les tags pour organiser votre liste de questions.
@@ -1588,10 +1588,10 @@ ui:
     last_login: Vu
     about_me: À propos de moi
     about_me_empty: "// Hello, World !"
-    top_answers: Les meilleures réponses
+    top_answers: Réponses les plus populaires
     top_questions: Questions les plus populaires
     stats: Statistiques
-    list_empty: Aucune publication trouvée.<br />Peut-être souhaiteriez-vous sélectionner un autre onglet ?
+    list_empty: Aucun post trouvé.<br />Peut-être souhaiteriez-vous sélectionner un autre onglet ?
     content_empty: Aucun post trouvé.
     accepted: Accepté
     answered: a répondu
@@ -1683,14 +1683,14 @@ ui:
       label: Nom
       msg: Le nom ne peut pas être vide.
       character: 'Must use the character set "a-z", "A-Z", "0-9", " - . _"'
-      msg_max_length: Name must be between 2 to 30 characters in length.
+      msg_max_length: La longueur du nom doit être comprise entre 2 et 30 caraotères.
     admin_password:
       label: Mot de passe
       text: >-
-        Vous aurez besoin de ce mot de passe pour vous connecter . Sauvegarder le de façon sécurisée.
+        Vous aurez besoin de ce mot de passe pour vous connecter. Sauvegardez-le de façon sécurisée.
       msg: Le mot de passe ne peut pas être vide.
       msg_min_length: Le mot de passe doit comporter au moins 8 caractères.
-      msg_max_length: Le mot de passe doit comporter au maximum 32 caractères.
+      msg_max_length: Le mot de passe ne peut pas comporter plus de 32 caractères.
     admin_confirm_password:
       label: "Confirm Password"
       text: "Please re-enter your password to confirm."
@@ -1711,10 +1711,10 @@ ui:
     install_now: Vous pouvez essayer de <1>l'installer maintenant</1>.
     installed: Déjà installé
     installed_desc: >-
-      Il semble que se soit déjà installer. Pour tout réinstaller, veuillez d'abord nettoyer votre ancienne base de données.
+      Il semble que se soit déjà installé. Pour tout réinstaller, veuillez d'abord nettoyer votre ancienne base de données.
     db_failed: La connexion à la base de données a échoué
     db_failed_desc: >-
-      Cela signifie que les informations de la base de données dans votre fichier <1>config.yaml</1> est incorrect ou le contact avec le serveur de base de données n'a pas pu être établi. Cela pourrait signifier que le serveur de base de données de votre hôte est hors service.
+      Cela signifie soit qgit config --global --add safe.directory /data/i18nue les informations de la base de données dans votre fichier <1>config.yaml</1> sont incorrectes, soit que le contact avec la base de données n'a pas pu être établi. Cela pourrait signifier que le serveur de base de données de votre hôte est hors-service.
   counts:
     views: vues
     votes: votes
@@ -1786,7 +1786,7 @@ ui:
       users: "Utilisateurs :"
       flags: "Signalements:"
       reviews: "Revoir :"
-      site_health: Etat du site
+      site_health: État du site
       version: "Version :"
       https: "HTTPS :"
       upload_folder: "Dossier de téléversement :"
@@ -2111,22 +2111,19 @@ ui:
       page_title: CSS et HTML
       custom_css:
         label: CSS personnalisé
-        text: >
-
+        text: Sera inséré comme &lt;link&gt;
       head:
         label: Head
-        text: >
-
+        text: Sera inséré avant &lt;/head&gt;
       header:
         label: En-tête
-        text: >
-
+        text: Sera inséré après &lt;body&gt;
       footer:
         label: Pied de page
-        text: Ceci va être inséré avant &lt;/html&gt;.
+        text: Sera inséré avant &lt;/body&gt;.
       sidebar:
         label: Panneau latéral
-        text: Cela va être inséré dans la barre latérale.
+        text: Sera inséré dans la barre latérale.
     login:
       page_title: Se connecter
       membership:
@@ -2147,15 +2144,15 @@ ui:
       password_login:
         title: Connexion par mot de passe
         label: Autoriser la connexion par e-mail et mot de passe
-        text: "AVERTISSEMENT : Si cette option est désactivée, vous ne pourrez peut-être pas vous connecter si vous n'avez pas configuré une autre méthode de connexion."
+        text: "ATTENTION : si cette option est désactivée, vous ne pourrez peut-être pas vous connecter si vous n'avez pas configuré une autre méthode de connexion."
     installed_plugins:
       title: Extensions installées
-      plugin_link: Les plugins étendent les fonctionnalités d'Answer. Vous pouvez trouver des plugins dans le dépôt <1>Answer Plugin Repositor</1>.
+      plugin_link: Les extensions étendent les fonctionnalités d'Answer. Vous pouvez en trouver dans le <1>dépôt des extensions</1>.
       filter:
-        all: Tous
-        active: Actif
-        inactive: Inactif
-        outdated: Est obsolète
+        all: Toutes
+        active: Actives
+        inactive: Inactives
+        outdated: Obsolètes
       plugins:
         label: Extensions
         text: Sélectionnez une extension existante.
@@ -2173,7 +2170,7 @@ ui:
         text: Pour les utilisateurs sans avatar personnalisé.
       gravatar_base_url:
         label: URL Gravatar de base
-        text: URL de la base de l'API du fournisseur Gravatar. Ignorée lorsqu'elle est vide.
+        text: URL de la base de l'API du fournisseur Gravatar. Ignorée si vide.
       profile_editable:
         title: Profil modifiable
       allow_update_display_name:
