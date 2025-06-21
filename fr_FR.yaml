@@ -2058,8 +2058,8 @@ ui:
       page_title: Écrire
       restrict_answer:
         title: Écriture de la réponse
-        label: Chaque utilisateur ne peut écrire qu'une seule réponse pour chaque question
-        text: "Désactivez pour permettre aux utilisateurs d'écrire plusieurs réponses à la même question, ce qui peut causer une perte de concentration des réponses."
+        label: Chaque utilisateur ne peut écrire qu'une seule réponse par question
+        text: "Désactivez pour permettre aux utilisateurs d'écrire plusieurs réponses à la même question, ce qui peut réduire la pertinence des réponses."
       recommend_tags:
         label: Tags recommandés
         text: "Les balises recommandées apparaîtront par défaut dans la liste déroulante."
@@ -2086,7 +2086,7 @@ ui:
         text: "Une liste d'extensions de fichier autorisées pour l'affichage d'image, séparées par des virgules."
       attachment_extensions:
         label: Extensions de pièces jointes autorisées
-        text: "Une liste d'extensions de fichier autorisées pour le téléchargement, séparées par des virgules. ATTENTION : Autoriser les envois peut causer des problèmes de sécurité."
+        text: "Une liste d'extensions de fichier autorisées pour le téléchargement, séparées par des virgules. ATTENTION : autoriser les envois peut causer des problèmes de sécurité."
     seo:
       page_title: Référencement
       permalink:
@@ -2170,7 +2170,7 @@ ui:
         text: Pour les utilisateurs sans avatar personnalisé.
       gravatar_base_url:
         label: URL Gravatar de base
-        text: URL de la base de l'API du fournisseur Gravatar. Ignorée si vide.
+        text: URL de base de l'API du fournisseur Gravatar. Ignorée si vide.
       profile_editable:
         title: Profil modifiable
       allow_update_display_name:
@@ -2226,9 +2226,9 @@ ui:
     edit_answer: Modifier la réponse
     edit_tag: Modifier l’étiquette
     empty: Aucune révision restante.
-    approve_revision_tip: Acceptez-vous cette révision?
+    approve_revision_tip: Acceptez-vous cette révision ?
     approve_flag_tip: Acceptez-vous ce rapport ?
-    approve_post_tip: Acceptez-vous ce post?
+    approve_post_tip: Acceptez-vous ce message ?
     approve_user_tip: Acceptez-vous cet utilisateur ?
     suggest_edits: Modifications suggérées
     flag_post: Signaler ce message
@@ -2275,10 +2275,10 @@ ui:
     no_data: "Nous n'avons rien pu trouver."
   users:
     title: Utilisateurs
-    users_with_the_most_reputation: Utilisateurs ayant le score de réputation le plus élevé cette semaine
-    users_with_the_most_vote: Utilisateurs qui ont le plus voté cette semaine
+    users_with_the_most_reputation: Utilisateurs ayant les scores de réputation les plus élevés cette semaine
+    users_with_the_most_vote: Utilisateurs ayant le plus voté cette semaine
     staffs: Staff de la communauté
-    reputation: réputation
+    reputation: points
     votes: votes
   prompt:
     leave_page: Voulez-vous vraiment quitter la page ?
@@ -2287,16 +2287,16 @@ ui:
     discard_confirm: Êtes-vous sûr de vouloir abandonner ce brouillon ?
   messages:
     post_deleted: Ce message a été supprimé.
-    post_cancel_deleted: Ce post a été restauré.
+    post_cancel_deleted: Ce message a été restauré.
     post_pin: Ce message a été épinglé.
     post_unpin: Ce message a été déépinglé.
     post_hide_list: Ce message a été masqué de la liste.
     post_show_list: Ce message a été affiché dans la liste.
     post_reopen: Ce message a été rouvert.
-    post_list: Ce post a été ajouté à la liste.
-    post_unlist: Ce post a été retiré de la liste.
+    post_list: Ce message a été ajouté à la liste.
+    post_unlist: Ce message a été retiré de la liste.
     post_pending: Votre message est en attente de révision. C'est un aperçu, il sera visible une fois qu'il aura été approuvé.
-    post_closed: Ce post a été fermé.
+    post_closed: Ce message a été fermé.
     answer_deleted: Cette réponse a été supprimée.
     answer_cancel_deleted: Cette réponse a été restaurée.
     change_user_role: Le rôle de cet utilisateur a été modifié.
@@ -2306,11 +2306,11 @@ ui:
     user_deleted: Cet utilisateur a été supprimé.
     badge_activated: Ce badge a été activé.
     badge_inactivated: Ce badge a été désactivé.
-    users_deleted: These users have been deleted.
-    posts_deleted: These questions have been deleted.
-    answers_deleted: These answers have been deleted.
-    copy: Copy to clipboard
-    copied: Copied
-    external_content_warning: External images/media are not displayed.
+    users_deleted: Ces utilisateurs ont été supprimés.
+    posts_deleted: Ces questions ont été supprimées.
+    answers_deleted: Ces réponses ont été supprimées.
+    copy: Copier dans le presse-papier
+    copied: Copié
+    external_content_warning: Les images/medias externes ne sont pas affichés.
 
 
