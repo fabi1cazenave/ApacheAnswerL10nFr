@@ -1332,7 +1332,7 @@ ui:
         label: Mot de passe actuel
         msg:
           empty: Le mot de passe actuel ne peut pas être vide.
-          length: La mot de passe doit contenir entre 8 et 32 caractères
+          length: La mot de passe doit contenir entre 8 et 32 caractères.
           different: Le mot de passe saisi ne correspond pas.
       new_pass:
         label: Nouveau mot de passe
