@@ -142,7 +142,7 @@ backend:
   old_pass:
     other: Current password
   original_text:
-    other: Ce post
+    other: Ce message
   email_or_password_wrong_error:
     other: L'e-mail et le mot de passe ne correspondent pas.
   error:
@@ -215,7 +215,7 @@ backend:
       new_password_same_as_previous_setting:
         other: Le nouveau mot de passe est le même que le précédent.
       already_deleted:
-        other: Ce post a été supprimé.
+        other: Ce message a été supprimé.
     meta:
       object_not_found:
         other: Méta objet introuvable
@@ -353,7 +353,7 @@ backend:
       name:
         other: ce n’est plus nécessaire
       desc:
-        other: Ce commentaire est obsolète, conversationnel ou non pertinent pour ce post.
+        other: Ce commentaire est obsolète, conversationnel ou non pertinent pour ce message.
     something:
       name:
         other: quelque chose d'autre
@@ -375,7 +375,7 @@ backend:
       name:
         other: semble bien
       desc:
-        other: Ce poste est bon en tant que tel et n'est pas de mauvaise qualité.
+        other: Ce message est bon en tant que tel et n'est pas de mauvaise qualité.
     needs_edit:
       name:
         other: a besoin d'être modifié, et je l'ai fait
@@ -527,9 +527,9 @@ backend:
       other: éditer
   review:
     queued_post:
-      other: Post en file d'attente
+      other: Message en file d'attente
     flagged_post:
-      other: Signaler post
+      other: Signaler un message
     suggested_post_edit:
       other: Modifications suggérées
   reaction:
@@ -551,32 +551,32 @@ backend:
         name:
           other: Éditeur
         desc:
-          other: A modifié un post.
+          other: A modifié un message.
       first_flag:
         name:
           other: Premier signalement
         desc:
-          other: A signalé un post.
+          other: A signalé un message.
       first_upvote:
         name:
           other: Premier vote positif
         desc:
-          other: A approuvé un post.
+          other: A approuvé un message.
       first_link:
         name:
           other: Premier lien
         desc:
-          other: A ajouté un lien vers un autre post.
+          other: A ajouté un lien vers un autre message.
       first_reaction:
         name:
           other: Première réaction
         desc:
-          other: A réagi à un post.
+          other: A réagi à un message.
       first_share:
         name:
           other: Premier partage
         desc:
-          other: A partagé un post.
+          other: A partagé un message.
       scholar:
         name:
           other: Érudit
@@ -611,17 +611,17 @@ backend:
         name:
           other: Bien partagé
         desc:
-          other: A partagé un post avec 25 visiteurs uniques.
+          other: A partagé un message avec 25 visiteurs uniques.
       good_share:
         name:
           other: Bon partage
         desc:
-          other: A partagé un post avec 300 visiteurs uniques.
+          other: A partagé un message avec 300 visiteurs uniques.
       great_share:
         name:
           other: Super partage
         desc:
-          other: A partagé un post avec 1000 visiteurs uniques.
+          other: A partagé un message avec 1000 visiteurs uniques.
       out_of_love:
         name:
           other: Amoureux
@@ -656,17 +656,17 @@ backend:
         name:
           other: Merci
         desc:
-          other: A 20 postes votés et a donné 10 votes.
+          other: A 20 messages approuvés et a donné 10 approbations.
       gives_back:
         name:
           other: Redonne
         desc:
-          other: A 100 postes votés et a donné 100 votes.
+          other: A 100 messages approuvés et a donné 100 approbations.
       empathetic:
         name:
           other: Empathique
         desc:
-          other: A 500 postes votés et a donné 1000 votes.
+          other: A 500 messages approuvés et a donné 1000 approbations.
       enthusiast:
         name:
           other: Enthousiaste
@@ -691,12 +691,12 @@ backend:
         name:
           other: Apprécié
         desc:
-          other: A reçu 1 vote positif sur 20 posts.
+          other: A reçu 1 vote positif sur 20 messages.
       respected:
         name:
           other: Respecté
         desc:
-          other: A reçu 2 vote positif sur 100 posts.
+          other: A reçu 2 vote positif sur 100 messages.
       admired:
         name:
           other: Admiré
@@ -797,7 +797,7 @@ ui:
   how_to_format:
     title: Comment mettre en forme
     desc: >-
-      <ul class="mb-0"><li><p class="mb-2">mentionner un post: <code>#post_id</code></p></li><li><p class="mb-2">Pour faire des liens</p><pre class="mb-2"><code>&lt;https://url.com&gt;<br/><br/>[Title](https://url.com)</code></pre></li><li><p class="mb-2">mettre des retour entre les paragraphes</p></li><li><p class="mb-2"><em>_italic_</em> or **<strong>gras</strong>**</p></li><li><p class="mb-2">indenter le code par 4 espaces</p></li><li><p class="mb-2">citation en plaçant <code>&gt;</code> au début de la ligne</p></li><li><p class="mb-2">guillemets inversés <code>`comme_ca_`</code></p></li><li><p class="mb-2">créer une banière de code avec les guillemets inversés <code>`</code></p><pre class="mb-0"><code>```<br/>code ici<br/>```</code></pre></li></ul>
+      <ul class="mb-0"><li><p class="mb-2">mentionner un messages: <code>#post_id</code></p></li><li><p class="mb-2">Pour faire des liens</p><pre class="mb-2"><code>&lt;https://url.com&gt;<br/><br/>[Title](https://url.com)</code></pre></li><li><p class="mb-2">mettre des retour entre les paragraphes</p></li><li><p class="mb-2"><em>_italic_</em> or **<strong>gras</strong>**</p></li><li><p class="mb-2">indenter le code par 4 espaces</p></li><li><p class="mb-2">citation en plaçant <code>&gt;</code> au début de la ligne</p></li><li><p class="mb-2">guillemets inversés <code>`comme_ca_`</code></p></li><li><p class="mb-2">créer une banière de code avec les guillemets inversés <code>`</code></p><pre class="mb-0"><code>```<br/>code ici<br/>```</code></pre></li></ul>
   pagination:
     prev: Précédent
     next: Suivant
@@ -961,7 +961,7 @@ ui:
       not_supported: "Ne prenez pas en charge ce type de fichier. Réessayez avec {{file_type}}."
       max_size: "La taille du fichier ne doit pas dépasser {{size}} Mo."
   close_modal:
-    title: Je ferme ce post comme...
+    title: Je ferme ce message parce que…
     btn_cancel: Annuler
     btn_submit: Valider
     remark:
@@ -969,8 +969,8 @@ ui:
     msg:
       empty: Veuillez sélectionner une raison.
   report_modal:
-    flag_title: Je suis en train de signaler ce post comme...
-    close_title: Je ferme ce post comme...
+    flag_title: Je suis en train de signaler ce message parce que…
+    close_title: Je ferme ce message parce que…
     review_question_title: Vérifier la question
     review_answer_title: Vérifier la réponse
     review_comment_title: Revoir le commentaire
@@ -1080,7 +1080,7 @@ ui:
       Utilisez les commentaires pour demander plus d'informations ou suggérer des améliorations. Évitez de répondre aux questions dans les commentaires.
     tip_answer: >-
       Utilisez des commentaires pour répondre à d'autres utilisateurs ou leur signaler des modifications. Si vous ajoutez de nouvelles informations, modifiez votre message au lieu de commenter.
-    tip_vote: Il ajoute quelque chose d'utile au post
+    tip_vote: Il ajoute quelque chose d'utile au message
   edit_answer:
     title: Modifier la réponse
     default_reason: Modifier la réponse
@@ -1593,8 +1593,8 @@ ui:
     top_answers: Réponses les plus populaires
     top_questions: Questions les plus populaires
     stats: Statistiques
-    list_empty: Aucun post trouvé.<br />Peut-être souhaiteriez-vous sélectionner un autre onglet ?
-    content_empty: Aucun post trouvé.
+    list_empty: Aucun message trouvé.<br />Peut-être souhaiteriez-vous sélectionner un autre onglet ?
+    content_empty: Aucun message trouvé.
     accepted: Accepté
     answered: a répondu
     asked: a demandé
@@ -2241,9 +2241,9 @@ ui:
     reputation: réputation
     flag_post_type: A signalé ce message comme {{ type }}.
     flag_user_type: A signalé cet utilisateur comme {{ type }}.
-    edit_post: Éditer le post
-    list_post: Lister le post
-    unlist_post: Masquer la post de la liste
+    edit_post: Éditer le message
+    list_post: Lister le message
+    unlist_post: Masquer le message de la liste
   timeline:
     undeleted: restauré
     deleted: supprimé
