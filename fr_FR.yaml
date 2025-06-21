@@ -238,9 +238,9 @@ backend:
       fail_to_meet_the_condition:
         other: Le rang de réputation ne remplit pas la condition.
       vote_fail_to_meet_the_condition:
-        other: Merci pour vos commentaires. Vous avez besoin d'au moins {{.Rank}} de réputation pour voter.
+        other: Merci pour vos commentaires. Vous avez besoin d'au moins {{.Rank}} points de réputation pour voter.
       no_enough_rank_to_operate:
-        other: Vous avez besoin d'au moins {{.Rank}} de réputation pour faire cela.
+        other: Vous avez besoin d'au moins {{.Rank}} points de réputation pour faire cela.
     report:
       handle_failed:
         other: La gestion du rapport a échoué.
