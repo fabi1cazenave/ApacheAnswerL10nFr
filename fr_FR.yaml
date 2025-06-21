@@ -1309,8 +1309,8 @@ ui:
         label: Toutes les nouvelles questions
         description: Recevez une notification pour toutes les nouvelles questions. Jusqu'à 50 questions par semaine.
       all_new_question_for_following_tags:
-        label: Toutes les nouvelles questions pour les étiquettes suivantes
-        description: Recevez une notification pour toutes les nouvelles questions avec les étiquettes suivantes.
+        label: Toutes les nouvelles questions pour les étiquettes suivies
+        description: Recevez une notification pour toutes les nouvelles questions avec les étiquettes suivies.
     account:
       heading: Compte
       change_email_btn: Modifier l'adresse e-mail
