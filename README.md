@@ -3,7 +3,7 @@
 ## Situation
 
 La locale francophone officiele d’Apache Answer est quasiment inutilisable :
-- le vocabulaire n’est pas défini, une même notion pouvoant être exprimée par plusieurs mots différents ;
+- le vocabulaire n’est pas défini, une même notion pouvant être exprimée par plusieurs mots différents (et parfois faux) ;
 - la locale n’a pas été testée dans son contexte d’utilisation, et comporte de nombreux contre-sens.
 
 On se propose donc de définir une meilleure locale ici.
