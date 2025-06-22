@@ -2,16 +2,18 @@
 
 ## Situation
 
-La locale francophone officiele d’Apache Answer est quasiment inutilisabble :
-- le vocabulaire n’est pas défini, une même notion pouvoant être exprimée par plusieurs mots différens ;
-- la locale n’a pas été validée dans son contexte d’utilisation, et comporte de nombreux contre-sens.
+La locale francophone officiele d’Apache Answer est quasiment inutilisable :
+- le vocabulaire n’est pas défini, une même notion pouvoant être exprimée par plusieurs mots différents ;
+- la locale n’a pas été testée dans son contexte d’utilisation, et comporte de nombreux contre-sens.
 
-On se propose donc de définir une meilleure locale ici. L’outil retenu par Apache est [Crowdin](https://crowdin.com/project/answer/fr), mais il semble mal utilisé et ne permet pas la vue d’ensemble d’un vrai dépôt.
+On se propose donc de définir une meilleure locale ici.
+
+L’outil retenu par Apache est [Crowdin](https://crowdin.com/project/answer/fr), mais il semble mal utilisé et ne permet pas la vue d’ensemble d’un vrai dépôt. On devra donc rétro-porter chaque modification, une par une. :-( 
 
 ## Branches
 
-- la branche [main](https://github.com/fabi1cazenave/ApacheAnswerL10nFr) contient la locale officielle Apache
-- la branche [ergonautes](https://github.com/fabi1cazenave/ApacheAnswerL10nFr/tree/ergonautes) contient la révision proposée et testée sur [l’instance Ergo‑L](http://37.59.115.120:1664/)
+- la branche [main](https://github.com/fabi1cazenave/ApacheAnswerL10nFr) contient la locale officielle Apache ;
+- la branche [ergonautes](https://github.com/fabi1cazenave/ApacheAnswerL10nFr/tree/ergonautes) contient la révision proposée et testée sur [l’instance Ergo‑L](http://37.59.115.120:1664/).
 
 ## Vocabulaire Q&A
 
